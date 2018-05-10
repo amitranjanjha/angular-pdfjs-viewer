@@ -174,6 +174,7 @@
                     if ($attrs.open === 'false') {
                         document.getElementById('openFile').setAttribute('hidden', 'true');
                         document.getElementById('secondaryOpenFile').setAttribute('hidden', 'true');
+                        document.getElementById('toolbarViewerRight').setAttribute('hidden','true');
                     }
 
                     if ($attrs.download === 'false') {
